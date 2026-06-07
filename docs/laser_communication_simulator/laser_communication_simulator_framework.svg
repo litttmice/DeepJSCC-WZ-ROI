@@ -1,0 +1,94 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1920" height="1080" viewBox="0 0 1920 1080">
+<defs>
+  <marker id="arrow" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="8" markerHeight="8" orient="auto-start-reverse"><path d="M0 0L10 5L0 10Z" fill="#2F6F98"/></marker>
+  <marker id="arrowOrange" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="8" markerHeight="8" orient="auto"><path d="M0 0L10 5L0 10Z" fill="#E58A32"/></marker>
+  <filter id="shadow" x="-10%" y="-10%" width="120%" height="130%"><feDropShadow dx="0" dy="4" stdDeviation="5" flood-opacity=".13"/></filter>
+  <linearGradient id="beam" x1="0" x2="1"><stop offset="0" stop-color="#F5B35B" stop-opacity=".25"/><stop offset="1" stop-color="#E36B3D" stop-opacity=".5"/></linearGradient>
+</defs>
+<rect width="1920" height="1080" fill="#FFFFFF"/>
+<text x="960" y="62" font-family="Microsoft YaHei,Noto Sans CJK SC,PingFang SC,Arial,sans-serif" font-size="40" font-weight="700" text-anchor="middle" fill="#172B3A">激光通信模拟器——激光链路验证闭环</text>
+<text x="960" y="98" font-family="Microsoft YaHei,Noto Sans CJK SC,PingFang SC,Arial,sans-serif" font-size="21" font-weight="400" text-anchor="middle" fill="#4C6473">姿态与环境复现 · 星间远场等效 · 通信质量评估</text>
+
+<rect x="30" y="130" width="500" height="830" rx="28" fill="#F6FAFC" stroke="#2F6F98" stroke-width="2.5" filter="url(#shadow)"/>
+<rect x="550" y="130" width="820" height="830" rx="28" fill="#F6FAFC" stroke="#2F6F98" stroke-width="2.5" filter="url(#shadow)"/>
+<rect x="1390" y="130" width="500" height="830" rx="28" fill="#F6FAFC" stroke="#2F6F98" stroke-width="2.5" filter="url(#shadow)"/>
+<rect x="50" y="150" width="460" height="72" rx="8" fill="#EDF6FB" stroke="#2F6F98" stroke-width="2"/>
+<text x="280.0" y="197" font-family="Microsoft YaHei,Noto Sans CJK SC,PingFang SC,Arial,sans-serif" font-size="27" font-weight="700" text-anchor="middle" fill="#172B3A">1. 姿轨与环境模拟组件</text>
+<rect x="570" y="150" width="780" height="72" rx="8" fill="#EDF6FB" stroke="#2F6F98" stroke-width="2"/>
+<text x="960.0" y="197" font-family="Microsoft YaHei,Noto Sans CJK SC,PingFang SC,Arial,sans-serif" font-size="28" font-weight="700" text-anchor="middle" fill="#172B3A">2. 激光远场模拟组件（核心光学系统）</text>
+<rect x="1410" y="150" width="460" height="72" rx="8" fill="#EDF6FB" stroke="#2F6F98" stroke-width="2"/>
+<text x="1640.0" y="197" font-family="Microsoft YaHei,Noto Sans CJK SC,PingFang SC,Arial,sans-serif" font-size="27" font-weight="700" text-anchor="middle" fill="#172B3A">3. 激光通信性能测试组件</text>
+<text x="70" y="270" font-family="Microsoft YaHei,Noto Sans CJK SC,PingFang SC,Arial,sans-serif" font-size="25" font-weight="500" text-anchor="start" fill="#172B3A">▸  六自由度运动模拟</text>
+<text x="70" y="316" font-family="Microsoft YaHei,Noto Sans CJK SC,PingFang SC,Arial,sans-serif" font-size="25" font-weight="500" text-anchor="start" fill="#172B3A">▸  微振动谱 / 轨道相对运动复现</text>
+<text x="70" y="362" font-family="Microsoft YaHei,Noto Sans CJK SC,PingFang SC,Arial,sans-serif" font-size="25" font-weight="500" text-anchor="start" fill="#172B3A">▸  冷黑真空热环境模拟</text>
+<text x="590" y="270" font-family="Microsoft YaHei,Noto Sans CJK SC,PingFang SC,Arial,sans-serif" font-size="24" font-weight="500" text-anchor="start" fill="#172B3A">▸  离轴抛物面镜平行光管</text>
+<text x="590" y="314" font-family="Microsoft YaHei,Noto Sans CJK SC,PingFang SC,Arial,sans-serif" font-size="24" font-weight="500" text-anchor="start" fill="#172B3A">▸  程控光强衰减 / 波前畸变加载</text>
+<text x="590" y="358" font-family="Microsoft YaHei,Noto Sans CJK SC,PingFang SC,Arial,sans-serif" font-size="24" font-weight="500" text-anchor="start" fill="#172B3A">▸  指向抖动模拟</text>
+<text x="590" y="402" font-family="Microsoft YaHei,Noto Sans CJK SC,PingFang SC,Arial,sans-serif" font-size="24" font-weight="500" text-anchor="start" fill="#172B3A">▸  短距离 → 等效数万公里远场光斑</text>
+<text x="1430" y="270" font-family="Microsoft YaHei,Noto Sans CJK SC,PingFang SC,Arial,sans-serif" font-size="25" font-weight="500" text-anchor="start" fill="#172B3A">▸  误码率全自动测试</text>
+<text x="1430" y="316" font-family="Microsoft YaHei,Noto Sans CJK SC,PingFang SC,Arial,sans-serif" font-size="25" font-weight="500" text-anchor="start" fill="#172B3A">▸  跟瞄精度测试</text>
+<text x="1430" y="362" font-family="Microsoft YaHei,Noto Sans CJK SC,PingFang SC,Arial,sans-serif" font-size="25" font-weight="500" text-anchor="start" fill="#172B3A">▸  通信速率测试</text>
+<g stroke="#172B3A" stroke-width="3" fill="none">
+<ellipse cx="280" cy="790" rx="165" ry="28" fill="#DDEAF1"/>
+<rect x="125" y="730" width="310" height="60" rx="10" fill="#F7FAFC"/>
+<line x1="160" y1="730" x2="220" y2="585"/><line x1="400" y1="730" x2="340" y2="585"/>
+<line x1="215" y1="730" x2="260" y2="580"/><line x1="345" y1="730" x2="300" y2="580"/>
+<ellipse cx="280" cy="575" rx="92" ry="18" fill="#DDEAF1"/>
+<rect x="205" y="485" width="150" height="90" rx="18" fill="#FFFFFF"/>
+<ellipse cx="280" cy="485" rx="75" ry="16" fill="#EDF6FB"/>
+<path d="M225 485V430 Q280 390 335 430V485" fill="#E8F3F8"/>
+<ellipse cx="280" cy="430" rx="55" ry="13"/>
+<path d="M150 700 Q95 610 155 505 Q200 445 235 405" stroke="#4F86A6" stroke-width="15"/>
+<circle cx="150" cy="700" r="20" fill="#fff"/><circle cx="155" cy="505" r="20" fill="#fff"/>
+<circle cx="235" cy="405" r="18" fill="#fff"/><path d="M235 405l55 28" stroke-width="12"/>
+</g>
+<text x="280" y="855" font-family="Microsoft YaHei,Noto Sans CJK SC,PingFang SC,Arial,sans-serif" font-size="24" font-weight="600" text-anchor="middle" fill="#172B3A">卫星终端六自由度模拟台</text>
+<text x="380" y="465" font-family="Microsoft YaHei,Noto Sans CJK SC,PingFang SC,Arial,sans-serif" font-size="22" font-weight="600" text-anchor="start" fill="#172B3A">真空舱</text>
+<text x="83" y="625" font-family="Microsoft YaHei,Noto Sans CJK SC,PingFang SC,Arial,sans-serif" font-size="20" font-weight="600" text-anchor="start" fill="#2F6F98">微振动</text>
+<text x="442" y="740" font-family="Microsoft YaHei,Noto Sans CJK SC,PingFang SC,Arial,sans-serif" font-size="20" font-weight="600" text-anchor="end" fill="#2F6F98">轨道运动</text>
+<g stroke="#172B3A" stroke-width="3" fill="none">
+<rect x="590" y="695" width="120" height="92" rx="18" fill="#E8F3F8"/>
+<circle cx="710" cy="741" r="34" fill="#fff"/>
+<circle cx="710" cy="741" r="15" fill="#F6A34F"/>
+<path d="M725 728 L1225 590 L1225 890 L725 754 Z" fill="url(#beam)" stroke="none"/>
+<ellipse cx="895" cy="741" rx="34" ry="115" fill="#EAF4F9" stroke-width="7"/>
+<ellipse cx="895" cy="741" rx="12" ry="82"/>
+<ellipse cx="1110" cy="741" rx="34" ry="145" fill="#EAF4F9" stroke-width="7"/>
+<ellipse cx="1110" cy="741" rx="12" ry="105"/>
+<line x1="725" y1="741" x2="1250" y2="741" stroke="#D66B32" stroke-dasharray="12 8"/>
+<rect x="965" y="712" width="74" height="58" rx="8" fill="#FFF3E5"/>
+<path d="M975 755l15-28 15 28 15-28" stroke="#E58A32"/>
+<rect x="1180" y="700" width="75" height="82" rx="8" fill="#F0ECFA"/>
+<path d="M1194 738q12-22 24 0t24 0" stroke="#715BA3"/>
+<ellipse cx="1295" cy="741" rx="32" ry="170" fill="#FFF4E7" stroke="#E58A32" stroke-width="4" stroke-dasharray="8 7"/>
+</g>
+<text x="650" y="825" font-family="Microsoft YaHei,Noto Sans CJK SC,PingFang SC,Arial,sans-serif" font-size="22" font-weight="600" text-anchor="middle" fill="#172B3A">激光终端</text>
+<text x="895" y="570" font-family="Microsoft YaHei,Noto Sans CJK SC,PingFang SC,Arial,sans-serif" font-size="22" font-weight="600" text-anchor="middle" fill="#172B3A">离轴抛物面镜</text>
+<text x="1002" y="805" font-family="Microsoft YaHei,Noto Sans CJK SC,PingFang SC,Arial,sans-serif" font-size="20" font-weight="600" text-anchor="middle" fill="#172B3A">程控衰减器</text>
+<text x="1217" y="812" font-family="Microsoft YaHei,Noto Sans CJK SC,PingFang SC,Arial,sans-serif" font-size="20" font-weight="600" text-anchor="middle" fill="#172B3A">波前畸变加载器</text>
+<text x="1290" y="550" font-family="Microsoft YaHei,Noto Sans CJK SC,PingFang SC,Arial,sans-serif" font-size="23" font-weight="700" text-anchor="middle" fill="#E58A32">等效远场光斑</text>
+<text x="1290" y="580" font-family="Microsoft YaHei,Noto Sans CJK SC,PingFang SC,Arial,sans-serif" font-size="18" font-weight="400" text-anchor="middle" fill="#4C6473">（星间数万公里链路效果）</text>
+<path d="M760 655 Q820 610 865 650" fill="none" stroke="#2F6F98" stroke-width="3" marker-end="url(#arrow)"/>
+<text x="810" y="620" font-family="Microsoft YaHei,Noto Sans CJK SC,PingFang SC,Arial,sans-serif" font-size="19" font-weight="600" text-anchor="middle" fill="#2F6F98">指向抖动</text>
+<g stroke="#172B3A" stroke-width="3" fill="none">
+<rect x="1500" y="430" width="280" height="395" rx="8" fill="#E9F1F5"/>
+<rect x="1520" y="460" width="240" height="315" fill="#FFFFFF"/>
+<rect x="1540" y="485" width="200" height="90" rx="5" fill="#DDEAF1"/>
+<rect x="1560" y="505" width="95" height="45" fill="#BFD8E5"/>
+<circle cx="1685" cy="528" r="9"/><circle cx="1715" cy="528" r="9"/>
+<rect x="1540" y="600" width="200" height="140" rx="7" fill="#F8FBFC"/>
+</g>
+<text x="1640" y="637" font-family="Microsoft YaHei,Noto Sans CJK SC,PingFang SC,Arial,sans-serif" font-size="22" font-weight="700" text-anchor="middle" fill="#2F6F98">自动测试结果</text>
+<text x="1570" y="676" font-family="Microsoft YaHei,Noto Sans CJK SC,PingFang SC,Arial,sans-serif" font-size="20" font-weight="500" text-anchor="start" fill="#172B3A">误码率</text>
+<text x="1715" y="676" font-family="Microsoft YaHei,Noto Sans CJK SC,PingFang SC,Arial,sans-serif" font-size="20" font-weight="700" text-anchor="end" fill="#2C8B72">1×10⁻⁹</text>
+<text x="1570" y="707" font-family="Microsoft YaHei,Noto Sans CJK SC,PingFang SC,Arial,sans-serif" font-size="20" font-weight="500" text-anchor="start" fill="#172B3A">跟瞄精度</text>
+<text x="1715" y="707" font-family="Microsoft YaHei,Noto Sans CJK SC,PingFang SC,Arial,sans-serif" font-size="20" font-weight="700" text-anchor="end" fill="#2C8B72">0.1 μrad</text>
+<text x="1570" y="738" font-family="Microsoft YaHei,Noto Sans CJK SC,PingFang SC,Arial,sans-serif" font-size="20" font-weight="500" text-anchor="start" fill="#172B3A">通信速率</text>
+<text x="1715" y="738" font-family="Microsoft YaHei,Noto Sans CJK SC,PingFang SC,Arial,sans-serif" font-size="20" font-weight="700" text-anchor="end" fill="#2C8B72">10 Gbps</text>
+<text x="1640" y="860" font-family="Microsoft YaHei,Noto Sans CJK SC,PingFang SC,Arial,sans-serif" font-size="24" font-weight="600" text-anchor="middle" fill="#172B3A">通信性能测试机柜</text>
+<path d="M465 910 H585" fill="none" stroke="#2F6F98" stroke-width="7" marker-end="url(#arrow)"/>
+<path d="M1360 910 H1480" fill="none" stroke="#2F6F98" stroke-width="7" marker-end="url(#arrow)"/>
+<path d="M1730 900 V990 H190 Q100 990 100 900" fill="none" stroke="#2F6F98" stroke-width="7" marker-end="url(#arrow)"/>
+<text x="960" y="930" font-family="Microsoft YaHei,Noto Sans CJK SC,PingFang SC,Arial,sans-serif" font-size="29" font-weight="700" text-anchor="middle" fill="#2F6F98">终端状态 → 远场传输 → 性能评估</text>
+<text x="960" y="1025" font-family="Microsoft YaHei,Noto Sans CJK SC,PingFang SC,Arial,sans-serif" font-size="30" font-weight="700" text-anchor="middle" fill="#172B3A">三大组件协同联动，完整构建激光链路地面验证闭环</text>
+</svg>

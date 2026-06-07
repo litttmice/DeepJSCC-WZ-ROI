@@ -1,0 +1,179 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<VisioDocument xmlns="http://schemas.microsoft.com/visio/2003/core" xmlns:vx="http://schemas.microsoft.com/visio/2006/extension" xml:space="preserve">
+<DocumentProperties><Title>激光通信模拟器框架图</Title><Creator>OpenAI Codex</Creator><Description>激光链路验证闭环的三组件框架图</Description></DocumentProperties>
+<Fonts><FontEntry ID="0" Name="Microsoft YaHei" CharSet="134" PitchAndFamily="34" Attributes="0"/></Fonts>
+<StyleSheets><StyleSheet ID="0" NameU="No Style" Name="No Style"/></StyleSheets>
+<Pages><Page ID="0" NameU="Page-1" Name="激光通信模拟器框架图"><PageSheet><PageProps><PageWidth>16</PageWidth><PageHeight>9</PageHeight><ShdwOffsetX>0.11811</ShdwOffsetX><ShdwOffsetY>-0.11811</ShdwOffsetY><PageScale>1</PageScale><DrawingScale>1</DrawingScale><DrawingSizeType>3</DrawingSizeType><DrawingScaleType>0</DrawingScaleType><InhibitSnap>0</InhibitSnap><UIVisibility>0</UIVisibility></PageProps></PageSheet><Shapes><Shape ID="1" NameU="Shape.1" Type="Shape">
+<XForm><PinX>8</PinX><PinY>8.65</PinY><Width>15.6</Width><Height>0.45</Height><LocPinX>7.8</LocPinX><LocPinY>0.225</LocPinY><Angle>0</Angle></XForm>
+<Line><LineWeight>0.012</LineWeight><LineColor>255,255,255</LineColor><LinePattern>1</LinePattern></Line>
+<Fill><FillForegnd>255,255,255</FillForegnd><FillPattern>1</FillPattern></Fill>
+<Geom IX="0"><MoveTo IX="1"><X>0</X><Y>0</Y></MoveTo><LineTo IX="2"><X>15.6</X><Y>0</Y></LineTo><LineTo IX="3"><X>15.6</X><Y>0.45</Y></LineTo><LineTo IX="4"><X>0</X><Y>0.45</Y></LineTo><LineTo IX="5"><X>0</X><Y>0</Y></LineTo></Geom>
+<Char IX="0"><Font>0</Font><Color>23,43,58</Color><Size>0.3</Size><Style>1</Style></Char>
+<Para IX="0"><HorzAlign>1</HorzAlign><Bullet>0</Bullet></Para><Text>激光通信模拟器——激光链路验证闭环</Text></Shape>
+<Shape ID="2" NameU="Shape.2" Type="Shape">
+<XForm><PinX>2.35</PinX><PinY>4.85</PinY><Width>4.3</Width><Height>6.9</Height><LocPinX>2.15</LocPinX><LocPinY>3.45</LocPinY><Angle>0</Angle></XForm>
+<Line><LineWeight>0.012</LineWeight><LineColor>47,111,152</LineColor><LinePattern>1</LinePattern></Line>
+<Fill><FillForegnd>246,250,252</FillForegnd><FillPattern>1</FillPattern></Fill>
+<Geom IX="0"><MoveTo IX="1"><X>0</X><Y>0</Y></MoveTo><LineTo IX="2"><X>4.3</X><Y>0</Y></LineTo><LineTo IX="3"><X>4.3</X><Y>6.9</Y></LineTo><LineTo IX="4"><X>0</X><Y>6.9</Y></LineTo><LineTo IX="5"><X>0</X><Y>0</Y></LineTo></Geom>
+<Char IX="0"><Font>0</Font><Color>23,43,58</Color><Size>0.18</Size><Style>0</Style></Char>
+<Para IX="0"><HorzAlign>1</HorzAlign><Bullet>0</Bullet></Para><Text></Text></Shape>
+<Shape ID="3" NameU="Shape.3" Type="Shape">
+<XForm><PinX>8</PinX><PinY>4.85</PinY><Width>6.7</Width><Height>6.9</Height><LocPinX>3.35</LocPinX><LocPinY>3.45</LocPinY><Angle>0</Angle></XForm>
+<Line><LineWeight>0.012</LineWeight><LineColor>47,111,152</LineColor><LinePattern>1</LinePattern></Line>
+<Fill><FillForegnd>246,250,252</FillForegnd><FillPattern>1</FillPattern></Fill>
+<Geom IX="0"><MoveTo IX="1"><X>0</X><Y>0</Y></MoveTo><LineTo IX="2"><X>6.7</X><Y>0</Y></LineTo><LineTo IX="3"><X>6.7</X><Y>6.9</Y></LineTo><LineTo IX="4"><X>0</X><Y>6.9</Y></LineTo><LineTo IX="5"><X>0</X><Y>0</Y></LineTo></Geom>
+<Char IX="0"><Font>0</Font><Color>23,43,58</Color><Size>0.18</Size><Style>0</Style></Char>
+<Para IX="0"><HorzAlign>1</HorzAlign><Bullet>0</Bullet></Para><Text></Text></Shape>
+<Shape ID="4" NameU="Shape.4" Type="Shape">
+<XForm><PinX>13.65</PinX><PinY>4.85</PinY><Width>4.3</Width><Height>6.9</Height><LocPinX>2.15</LocPinX><LocPinY>3.45</LocPinY><Angle>0</Angle></XForm>
+<Line><LineWeight>0.012</LineWeight><LineColor>47,111,152</LineColor><LinePattern>1</LinePattern></Line>
+<Fill><FillForegnd>246,250,252</FillForegnd><FillPattern>1</FillPattern></Fill>
+<Geom IX="0"><MoveTo IX="1"><X>0</X><Y>0</Y></MoveTo><LineTo IX="2"><X>4.3</X><Y>0</Y></LineTo><LineTo IX="3"><X>4.3</X><Y>6.9</Y></LineTo><LineTo IX="4"><X>0</X><Y>6.9</Y></LineTo><LineTo IX="5"><X>0</X><Y>0</Y></LineTo></Geom>
+<Char IX="0"><Font>0</Font><Color>23,43,58</Color><Size>0.18</Size><Style>0</Style></Char>
+<Para IX="0"><HorzAlign>1</HorzAlign><Bullet>0</Bullet></Para><Text></Text></Shape>
+<Shape ID="5" NameU="Shape.5" Type="Shape">
+<XForm><PinX>2.35</PinX><PinY>7.75</PinY><Width>4</Width><Height>0.62</Height><LocPinX>2.0</LocPinX><LocPinY>0.31</LocPinY><Angle>0</Angle></XForm>
+<Line><LineWeight>0.012</LineWeight><LineColor>47,111,152</LineColor><LinePattern>1</LinePattern></Line>
+<Fill><FillForegnd>237,246,251</FillForegnd><FillPattern>1</FillPattern></Fill>
+<Geom IX="0"><MoveTo IX="1"><X>0</X><Y>0</Y></MoveTo><LineTo IX="2"><X>4</X><Y>0</Y></LineTo><LineTo IX="3"><X>4</X><Y>0.62</Y></LineTo><LineTo IX="4"><X>0</X><Y>0.62</Y></LineTo><LineTo IX="5"><X>0</X><Y>0</Y></LineTo></Geom>
+<Char IX="0"><Font>0</Font><Color>23,43,58</Color><Size>0.22</Size><Style>1</Style></Char>
+<Para IX="0"><HorzAlign>1</HorzAlign><Bullet>0</Bullet></Para><Text>1. 姿轨与环境模拟组件</Text></Shape>
+<Shape ID="6" NameU="Shape.6" Type="Shape">
+<XForm><PinX>8</PinX><PinY>7.75</PinY><Width>6.35</Width><Height>0.62</Height><LocPinX>3.175</LocPinX><LocPinY>0.31</LocPinY><Angle>0</Angle></XForm>
+<Line><LineWeight>0.012</LineWeight><LineColor>47,111,152</LineColor><LinePattern>1</LinePattern></Line>
+<Fill><FillForegnd>237,246,251</FillForegnd><FillPattern>1</FillPattern></Fill>
+<Geom IX="0"><MoveTo IX="1"><X>0</X><Y>0</Y></MoveTo><LineTo IX="2"><X>6.35</X><Y>0</Y></LineTo><LineTo IX="3"><X>6.35</X><Y>0.62</Y></LineTo><LineTo IX="4"><X>0</X><Y>0.62</Y></LineTo><LineTo IX="5"><X>0</X><Y>0</Y></LineTo></Geom>
+<Char IX="0"><Font>0</Font><Color>23,43,58</Color><Size>0.22</Size><Style>1</Style></Char>
+<Para IX="0"><HorzAlign>1</HorzAlign><Bullet>0</Bullet></Para><Text>2. 激光远场模拟组件（核心光学系统）</Text></Shape>
+<Shape ID="7" NameU="Shape.7" Type="Shape">
+<XForm><PinX>13.65</PinX><PinY>7.75</PinY><Width>4</Width><Height>0.62</Height><LocPinX>2.0</LocPinX><LocPinY>0.31</LocPinY><Angle>0</Angle></XForm>
+<Line><LineWeight>0.012</LineWeight><LineColor>47,111,152</LineColor><LinePattern>1</LinePattern></Line>
+<Fill><FillForegnd>237,246,251</FillForegnd><FillPattern>1</FillPattern></Fill>
+<Geom IX="0"><MoveTo IX="1"><X>0</X><Y>0</Y></MoveTo><LineTo IX="2"><X>4</X><Y>0</Y></LineTo><LineTo IX="3"><X>4</X><Y>0.62</Y></LineTo><LineTo IX="4"><X>0</X><Y>0.62</Y></LineTo><LineTo IX="5"><X>0</X><Y>0</Y></LineTo></Geom>
+<Char IX="0"><Font>0</Font><Color>23,43,58</Color><Size>0.22</Size><Style>1</Style></Char>
+<Para IX="0"><HorzAlign>1</HorzAlign><Bullet>0</Bullet></Para><Text>3. 激光通信性能测试组件</Text></Shape>
+<Shape ID="8" NameU="Shape.8" Type="Shape">
+<XForm><PinX>2.35</PinX><PinY>6.65</PinY><Width>3.8</Width><Height>1.25</Height><LocPinX>1.9</LocPinX><LocPinY>0.625</LocPinY><Angle>0</Angle></XForm>
+<Line><LineWeight>0.012</LineWeight><LineColor>246,250,252</LineColor><LinePattern>1</LinePattern></Line>
+<Fill><FillForegnd>246,250,252</FillForegnd><FillPattern>1</FillPattern></Fill>
+<Geom IX="0"><MoveTo IX="1"><X>0</X><Y>0</Y></MoveTo><LineTo IX="2"><X>3.8</X><Y>0</Y></LineTo><LineTo IX="3"><X>3.8</X><Y>1.25</Y></LineTo><LineTo IX="4"><X>0</X><Y>1.25</Y></LineTo><LineTo IX="5"><X>0</X><Y>0</Y></LineTo></Geom>
+<Char IX="0"><Font>0</Font><Color>23,43,58</Color><Size>0.17</Size><Style>0</Style></Char>
+<Para IX="0"><HorzAlign>1</HorzAlign><Bullet>0</Bullet></Para><Text>▸ 六自由度运动模拟
+▸ 微振动谱 / 轨道相对运动复现
+▸ 冷黑真空热环境模拟</Text></Shape>
+<Shape ID="9" NameU="Shape.9" Type="Shape">
+<XForm><PinX>8</PinX><PinY>6.5</PinY><Width>6.05</Width><Height>1.55</Height><LocPinX>3.025</LocPinX><LocPinY>0.775</LocPinY><Angle>0</Angle></XForm>
+<Line><LineWeight>0.012</LineWeight><LineColor>246,250,252</LineColor><LinePattern>1</LinePattern></Line>
+<Fill><FillForegnd>246,250,252</FillForegnd><FillPattern>1</FillPattern></Fill>
+<Geom IX="0"><MoveTo IX="1"><X>0</X><Y>0</Y></MoveTo><LineTo IX="2"><X>6.05</X><Y>0</Y></LineTo><LineTo IX="3"><X>6.05</X><Y>1.55</Y></LineTo><LineTo IX="4"><X>0</X><Y>1.55</Y></LineTo><LineTo IX="5"><X>0</X><Y>0</Y></LineTo></Geom>
+<Char IX="0"><Font>0</Font><Color>23,43,58</Color><Size>0.16</Size><Style>0</Style></Char>
+<Para IX="0"><HorzAlign>1</HorzAlign><Bullet>0</Bullet></Para><Text>▸ 离轴抛物面镜平行光管
+▸ 程控光强衰减 / 波前畸变加载
+▸ 指向抖动模拟
+▸ 短距离 → 等效数万公里远场光斑</Text></Shape>
+<Shape ID="10" NameU="Shape.10" Type="Shape">
+<XForm><PinX>13.65</PinX><PinY>6.65</PinY><Width>3.8</Width><Height>1.25</Height><LocPinX>1.9</LocPinX><LocPinY>0.625</LocPinY><Angle>0</Angle></XForm>
+<Line><LineWeight>0.012</LineWeight><LineColor>246,250,252</LineColor><LinePattern>1</LinePattern></Line>
+<Fill><FillForegnd>246,250,252</FillForegnd><FillPattern>1</FillPattern></Fill>
+<Geom IX="0"><MoveTo IX="1"><X>0</X><Y>0</Y></MoveTo><LineTo IX="2"><X>3.8</X><Y>0</Y></LineTo><LineTo IX="3"><X>3.8</X><Y>1.25</Y></LineTo><LineTo IX="4"><X>0</X><Y>1.25</Y></LineTo><LineTo IX="5"><X>0</X><Y>0</Y></LineTo></Geom>
+<Char IX="0"><Font>0</Font><Color>23,43,58</Color><Size>0.17</Size><Style>0</Style></Char>
+<Para IX="0"><HorzAlign>1</HorzAlign><Bullet>0</Bullet></Para><Text>▸ 误码率全自动测试
+▸ 跟瞄精度测试
+▸ 通信速率测试</Text></Shape>
+<Shape ID="11" NameU="Shape.11" Type="Shape">
+<XForm><PinX>2.35</PinX><PinY>3.6</PinY><Width>3.2</Width><Height>2.7</Height><LocPinX>1.6</LocPinX><LocPinY>1.35</LocPinY><Angle>0</Angle></XForm>
+<Line><LineWeight>0.012</LineWeight><LineColor>47,111,152</LineColor><LinePattern>1</LinePattern></Line>
+<Fill><FillForegnd>232,243,248</FillForegnd><FillPattern>1</FillPattern></Fill>
+<Geom IX="0"><MoveTo IX="1"><X>0</X><Y>0</Y></MoveTo><LineTo IX="2"><X>3.2</X><Y>0</Y></LineTo><LineTo IX="3"><X>3.2</X><Y>2.7</Y></LineTo><LineTo IX="4"><X>0</X><Y>2.7</Y></LineTo><LineTo IX="5"><X>0</X><Y>0</Y></LineTo></Geom>
+<Char IX="0"><Font>0</Font><Color>23,43,58</Color><Size>0.2</Size><Style>1</Style></Char>
+<Para IX="0"><HorzAlign>1</HorzAlign><Bullet>0</Bullet></Para><Text>真空热环境
+
+六自由度模拟台
+
+微振动 / 轨道运动</Text></Shape>
+<Shape ID="12" NameU="Shape.12" Type="Shape">
+<XForm><PinX>5.25</PinX><PinY>4.0</PinY><Width>1.05</Width><Height>0.75</Height><LocPinX>0.525</LocPinX><LocPinY>0.375</LocPinY><Angle>0</Angle></XForm>
+<Line><LineWeight>0.012</LineWeight><LineColor>47,111,152</LineColor><LinePattern>1</LinePattern></Line>
+<Fill><FillForegnd>232,243,248</FillForegnd><FillPattern>1</FillPattern></Fill>
+<Geom IX="0"><MoveTo IX="1"><X>0</X><Y>0</Y></MoveTo><LineTo IX="2"><X>1.05</X><Y>0</Y></LineTo><LineTo IX="3"><X>1.05</X><Y>0.75</Y></LineTo><LineTo IX="4"><X>0</X><Y>0.75</Y></LineTo><LineTo IX="5"><X>0</X><Y>0</Y></LineTo></Geom>
+<Char IX="0"><Font>0</Font><Color>23,43,58</Color><Size>0.15</Size><Style>1</Style></Char>
+<Para IX="0"><HorzAlign>1</HorzAlign><Bullet>0</Bullet></Para><Text>激光终端
+发射端</Text></Shape>
+<Shape ID="13" NameU="Shape.13" Type="Shape">
+<XForm><PinX>7.1</PinX><PinY>4.0</PinY><Width>0.32</Width><Height>2.25</Height><LocPinX>0.16</LocPinX><LocPinY>1.125</LocPinY><Angle>0</Angle></XForm>
+<Line><LineWeight>0.012</LineWeight><LineColor>47,111,152</LineColor><LinePattern>1</LinePattern></Line>
+<Fill><FillForegnd>234,244,249</FillForegnd><FillPattern>1</FillPattern></Fill>
+<Geom IX="0"><MoveTo IX="1"><X>0</X><Y>0</Y></MoveTo><LineTo IX="2"><X>0.32</X><Y>0</Y></LineTo><LineTo IX="3"><X>0.32</X><Y>2.25</Y></LineTo><LineTo IX="4"><X>0</X><Y>2.25</Y></LineTo><LineTo IX="5"><X>0</X><Y>0</Y></LineTo></Geom>
+<Char IX="0"><Font>0</Font><Color>23,43,58</Color><Size>0.13</Size><Style>1</Style></Char>
+<Para IX="0"><HorzAlign>1</HorzAlign><Bullet>0</Bullet></Para><Text>离轴抛物面镜</Text></Shape>
+<Shape ID="14" NameU="Shape.14" Type="Shape">
+<XForm><PinX>8.5</PinX><PinY>4.0</PinY><Width>0.32</Width><Height>2.6</Height><LocPinX>0.16</LocPinX><LocPinY>1.3</LocPinY><Angle>0</Angle></XForm>
+<Line><LineWeight>0.012</LineWeight><LineColor>47,111,152</LineColor><LinePattern>1</LinePattern></Line>
+<Fill><FillForegnd>234,244,249</FillForegnd><FillPattern>1</FillPattern></Fill>
+<Geom IX="0"><MoveTo IX="1"><X>0</X><Y>0</Y></MoveTo><LineTo IX="2"><X>0.32</X><Y>0</Y></LineTo><LineTo IX="3"><X>0.32</X><Y>2.6</Y></LineTo><LineTo IX="4"><X>0</X><Y>2.6</Y></LineTo><LineTo IX="5"><X>0</X><Y>0</Y></LineTo></Geom>
+<Char IX="0"><Font>0</Font><Color>23,43,58</Color><Size>0.13</Size><Style>1</Style></Char>
+<Para IX="0"><HorzAlign>1</HorzAlign><Bullet>0</Bullet></Para><Text>离轴抛物面镜</Text></Shape>
+<Shape ID="15" NameU="Shape.15" Type="Shape">
+<XForm><PinX>9.45</PinX><PinY>4.0</PinY><Width>0.85</Width><Height>0.7</Height><LocPinX>0.425</LocPinX><LocPinY>0.35</LocPinY><Angle>0</Angle></XForm>
+<Line><LineWeight>0.012</LineWeight><LineColor>229,138,50</LineColor><LinePattern>1</LinePattern></Line>
+<Fill><FillForegnd>255,243,229</FillForegnd><FillPattern>1</FillPattern></Fill>
+<Geom IX="0"><MoveTo IX="1"><X>0</X><Y>0</Y></MoveTo><LineTo IX="2"><X>0.85</X><Y>0</Y></LineTo><LineTo IX="3"><X>0.85</X><Y>0.7</Y></LineTo><LineTo IX="4"><X>0</X><Y>0.7</Y></LineTo><LineTo IX="5"><X>0</X><Y>0</Y></LineTo></Geom>
+<Char IX="0"><Font>0</Font><Color>23,43,58</Color><Size>0.14</Size><Style>1</Style></Char>
+<Para IX="0"><HorzAlign>1</HorzAlign><Bullet>0</Bullet></Para><Text>程控
+衰减器</Text></Shape>
+<Shape ID="16" NameU="Shape.16" Type="Shape">
+<XForm><PinX>10.45</PinX><PinY>4.0</PinY><Width>0.85</Width><Height>0.7</Height><LocPinX>0.425</LocPinX><LocPinY>0.35</LocPinY><Angle>0</Angle></XForm>
+<Line><LineWeight>0.012</LineWeight><LineColor>113,91,163</LineColor><LinePattern>1</LinePattern></Line>
+<Fill><FillForegnd>240,236,250</FillForegnd><FillPattern>1</FillPattern></Fill>
+<Geom IX="0"><MoveTo IX="1"><X>0</X><Y>0</Y></MoveTo><LineTo IX="2"><X>0.85</X><Y>0</Y></LineTo><LineTo IX="3"><X>0.85</X><Y>0.7</Y></LineTo><LineTo IX="4"><X>0</X><Y>0.7</Y></LineTo><LineTo IX="5"><X>0</X><Y>0</Y></LineTo></Geom>
+<Char IX="0"><Font>0</Font><Color>23,43,58</Color><Size>0.13</Size><Style>1</Style></Char>
+<Para IX="0"><HorzAlign>1</HorzAlign><Bullet>0</Bullet></Para><Text>波前畸变
+加载器</Text></Shape>
+<Shape ID="17" NameU="Shape.17" Type="Shape">
+<XForm><PinX>11.2</PinX><PinY>4.0</PinY><Width>0.35</Width><Height>2.9</Height><LocPinX>0.175</LocPinX><LocPinY>1.45</LocPinY><Angle>0</Angle></XForm>
+<Line><LineWeight>0.012</LineWeight><LineColor>229,138,50</LineColor><LinePattern>1</LinePattern></Line>
+<Fill><FillForegnd>255,244,231</FillForegnd><FillPattern>1</FillPattern></Fill>
+<Geom IX="0"><MoveTo IX="1"><X>0</X><Y>0</Y></MoveTo><LineTo IX="2"><X>0.35</X><Y>0</Y></LineTo><LineTo IX="3"><X>0.35</X><Y>2.9</Y></LineTo><LineTo IX="4"><X>0</X><Y>2.9</Y></LineTo><LineTo IX="5"><X>0</X><Y>0</Y></LineTo></Geom>
+<Char IX="0"><Font>0</Font><Color>23,43,58</Color><Size>0.14</Size><Style>1</Style></Char>
+<Para IX="0"><HorzAlign>1</HorzAlign><Bullet>0</Bullet></Para><Text>等效远场光斑</Text></Shape>
+<Shape ID="18" NameU="Connector.18" Type="Shape">
+<XForm><PinX>8.4</PinX><PinY>4.0</PinY><Width>5.2</Width><Height>0.001</Height><LocPinX>2.6</LocPinX><LocPinY>0.0005</LocPinY></XForm>
+<XForm1D><BeginX>5.8</BeginX><BeginY>4.0</BeginY><EndX>11.0</EndX><EndY>4.0</EndY></XForm1D>
+<Line><LineWeight>0.018</LineWeight><LineColor>214,107,50</LineColor><LinePattern>1</LinePattern><EndArrow>0</EndArrow><EndArrowSize>2</EndArrowSize></Line>
+<Geom IX="0"><MoveTo IX="1"><X>0</X><Y>0</Y></MoveTo><LineTo IX="2"><X>5.2</X><Y>0.001</Y></LineTo></Geom></Shape>
+<Shape ID="19" NameU="Shape.19" Type="Shape">
+<XForm><PinX>13.65</PinX><PinY>4.0</PinY><Width>3.0</Width><Height>2.75</Height><LocPinX>1.5</LocPinX><LocPinY>1.375</LocPinY><Angle>0</Angle></XForm>
+<Line><LineWeight>0.012</LineWeight><LineColor>47,111,152</LineColor><LinePattern>1</LinePattern></Line>
+<Fill><FillForegnd>233,241,245</FillForegnd><FillPattern>1</FillPattern></Fill>
+<Geom IX="0"><MoveTo IX="1"><X>0</X><Y>0</Y></MoveTo><LineTo IX="2"><X>3.0</X><Y>0</Y></LineTo><LineTo IX="3"><X>3.0</X><Y>2.75</Y></LineTo><LineTo IX="4"><X>0</X><Y>2.75</Y></LineTo><LineTo IX="5"><X>0</X><Y>0</Y></LineTo></Geom>
+<Char IX="0"><Font>0</Font><Color>23,43,58</Color><Size>0.19</Size><Style>1</Style></Char>
+<Para IX="0"><HorzAlign>1</HorzAlign><Bullet>0</Bullet></Para><Text>自动测试结果
+
+误码率：1×10⁻⁹
+跟瞄精度：0.1 μrad
+通信速率：10 Gbps</Text></Shape>
+<Shape ID="20" NameU="Connector.20" Type="Shape">
+<XForm><PinX>4.75</PinX><PinY>1.45</PinY><Width>0.5</Width><Height>0.001</Height><LocPinX>0.25</LocPinX><LocPinY>0.0005</LocPinY></XForm>
+<XForm1D><BeginX>4.5</BeginX><BeginY>1.45</BeginY><EndX>5.0</EndX><EndY>1.45</EndY></XForm1D>
+<Line><LineWeight>0.04</LineWeight><LineColor>47,111,152</LineColor><LinePattern>1</LinePattern><EndArrow>4</EndArrow><EndArrowSize>2</EndArrowSize></Line>
+<Geom IX="0"><MoveTo IX="1"><X>0</X><Y>0</Y></MoveTo><LineTo IX="2"><X>0.5</X><Y>0.001</Y></LineTo></Geom></Shape>
+<Shape ID="21" NameU="Connector.21" Type="Shape">
+<XForm><PinX>11.6</PinX><PinY>1.45</PinY><Width>0.5</Width><Height>0.001</Height><LocPinX>0.25</LocPinX><LocPinY>0.0005</LocPinY></XForm>
+<XForm1D><BeginX>11.35</BeginX><BeginY>1.45</BeginY><EndX>11.85</EndX><EndY>1.45</EndY></XForm1D>
+<Line><LineWeight>0.04</LineWeight><LineColor>47,111,152</LineColor><LinePattern>1</LinePattern><EndArrow>4</EndArrow><EndArrowSize>2</EndArrowSize></Line>
+<Geom IX="0"><MoveTo IX="1"><X>0</X><Y>0</Y></MoveTo><LineTo IX="2"><X>0.5</X><Y>0.001</Y></LineTo></Geom></Shape>
+<Shape ID="22" NameU="Shape.22" Type="Shape">
+<XForm><PinX>8</PinX><PinY>1.45</PinY><Width>5.9</Width><Height>0.55</Height><LocPinX>2.95</LocPinX><LocPinY>0.275</LocPinY><Angle>0</Angle></XForm>
+<Line><LineWeight>0.012</LineWeight><LineColor>255,255,255</LineColor><LinePattern>1</LinePattern></Line>
+<Fill><FillForegnd>255,255,255</FillForegnd><FillPattern>1</FillPattern></Fill>
+<Geom IX="0"><MoveTo IX="1"><X>0</X><Y>0</Y></MoveTo><LineTo IX="2"><X>5.9</X><Y>0</Y></LineTo><LineTo IX="3"><X>5.9</X><Y>0.55</Y></LineTo><LineTo IX="4"><X>0</X><Y>0.55</Y></LineTo><LineTo IX="5"><X>0</X><Y>0</Y></LineTo></Geom>
+<Char IX="0"><Font>0</Font><Color>23,43,58</Color><Size>0.22</Size><Style>1</Style></Char>
+<Para IX="0"><HorzAlign>1</HorzAlign><Bullet>0</Bullet></Para><Text>终端状态 → 远场传输 → 性能评估</Text></Shape>
+<Shape ID="23" NameU="Shape.23" Type="Shape">
+<XForm><PinX>8</PinX><PinY>0.55</PinY><Width>11.8</Width><Height>0.55</Height><LocPinX>5.9</LocPinX><LocPinY>0.275</LocPinY><Angle>0</Angle></XForm>
+<Line><LineWeight>0.012</LineWeight><LineColor>255,255,255</LineColor><LinePattern>1</LinePattern></Line>
+<Fill><FillForegnd>255,255,255</FillForegnd><FillPattern>1</FillPattern></Fill>
+<Geom IX="0"><MoveTo IX="1"><X>0</X><Y>0</Y></MoveTo><LineTo IX="2"><X>11.8</X><Y>0</Y></LineTo><LineTo IX="3"><X>11.8</X><Y>0.55</Y></LineTo><LineTo IX="4"><X>0</X><Y>0.55</Y></LineTo><LineTo IX="5"><X>0</X><Y>0</Y></LineTo></Geom>
+<Char IX="0"><Font>0</Font><Color>23,43,58</Color><Size>0.23</Size><Style>1</Style></Char>
+<Para IX="0"><HorzAlign>1</HorzAlign><Bullet>0</Bullet></Para><Text>三大组件协同联动，完整构建激光链路地面验证闭环</Text></Shape></Shapes></Page></Pages>
+</VisioDocument>
